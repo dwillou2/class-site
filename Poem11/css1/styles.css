@@ -1,0 +1,101 @@
+body {
+    height: 3200px;
+    font-family: helvetica, sans-serif;
+    text-align: left;
+    font-size: 50px;
+}
+
+div {
+    height: 1000px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.large {
+    font-family: helvetica;
+    font-size: 150px;
+    font-weight: 800;
+    text-align: center;
+        
+}
+
+.centered {
+ font-family: serif;
+ text-align: center;
+ font-style: lighter;
+}
+
+.regular {
+    font-weight: 100;
+}
+
+#anchor {
+    top: 3000px;
+    position: absolute;
+}
+
+#letterspace {
+    letter-spacing: 20px;
+}
+
+#rotate {
+    right: 25px;
+    top: 250px;
+    position: fixed;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    
+}
+
+#rotate2 {
+    right: 25px;
+    top: 150px;
+    position: fixed;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+    
+}
+
+.float1 {
+    float: center;
+    width: 30%;
+    height: 420px;
+    border-style: dotted;
+}
+
+.float2 {
+    float: left;
+    width: 20%;
+    height: 430px;
+    border-style: solid;
+}
+
+.fixed {
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 100px;
+    left: 600px;
+
+}
+
+.float {
+    top: 1000px;
+    width: 500px;
+    height: 1000px;
+    margin-top: 500;
+    margin-right: 0;
+}
+
+#capitalize {
+   text-transform: uppercase;
+   clear: both;
+}
+
+#lineheight {
+    line-height: 10px;
+    clear: both;
+}

@@ -1,0 +1,75 @@
+body {
+    height: 1600px;
+    width: 1200px;
+    font-family: helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    background: black;
+    color: black;
+}
+
+div {
+    height: 300px;
+    width: 1400px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.medium {
+    font-family: helvetica;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    width: 1200px;
+    background: black;
+    color: white;
+    height: 200px;
+    margin: 100px;
+    padding: 40px;
+        
+}
+
+.grids {
+    width: 300px;
+    height: 150px;
+    float: left;
+    text-align: left;
+    padding: 200px;
+    background: black;
+}
+
+/* tooltip */
+
+.tooltip {
+    position: relative;
+    color: #ccc;
+
+    -webkit-transition: all 500ms ease-in-out;  
+}
+
+/* this text will appear as a tooltip when hovering on .tooltip */
+
+.tooltip .tooltip-text { 
+    background: black;
+    position: absolute;
+    top: -30px;
+    width: 300px;
+    margin-left: -5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: "helvetica";
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 500ms ease-in-out;
+
+}
+
+.tooltip:hover {
+    color: black;
+}
+
+.tooltip:hover .tooltip-text {
+    opacity: 1;
+}

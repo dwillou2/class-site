@@ -1,0 +1,156 @@
+body {
+    height: 100px;
+    width: 8700px;
+    font-family: Georgia, serif;
+    font-size: 50px;
+}
+
+div {
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.large {
+    font-family: arial;
+    font-size: 40px;
+    font-style: bold;
+        
+}
+
+.centered {
+ text-align: center;
+ font-style: normal;
+}
+
+.regular {
+    font-weight: 100;
+}
+
+#letterspace {
+    letter-spacing: 20px;
+}
+
+#rotate {
+    right: 25px;
+    top: 100px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+        font-family: helvetica;
+    font-style: bold;
+    text-align: left;
+    
+}
+
+#rotate2 {
+    right: 25px;
+    top: 150px;
+    position: fixed;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+    
+}
+
+.float1 {
+    float: center;
+    width: 30%;
+    height: 420px;
+    border-style: dotted;
+}
+
+.float2 {
+    float: left;
+    width: 20%;
+    height: 430px;
+    border-style: solid;
+}
+
+.float5 {
+    float: left;
+    top: 200px;
+    height: 100px;
+    margin-top: 900;
+    margin-right: 0;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 24px;
+    padding: 200px;
+
+}
+
+.fixed3 {
+    width: 1000px;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 80px;
+    font-family: helvetica;
+    font-weight: 800;
+}   
+
+.fixed4 {
+    float: left;
+    width: 2000px;
+    height: 6600px;
+    top: 10px;
+    left: 10px;
+    font-size: 80px;
+    font-family: helvetica;
+    font-weight: 800;
+}   
+
+#capitalize {
+   text-transform: uppercase;
+   clear: both;
+}
+
+#lineheight {
+    line-height: 10px;
+    clear: both;
+}
+
+#anchor {
+    top: 10px;
+}
+
+#anchor2 {
+    top: 20px;
+}
+
+#anchor3 {
+    top: 200px;
+} 
+
+#anchor4 {
+    top: 200px;
+} 
+
+#anchor5 {
+    top: 200px;
+} 
+
+#anchor6 {
+    top: 200px;
+} 
+
+#anchor7 {
+    top: 200px;
+} 
+
+#anchor8 {
+    top: 200px;
+} 
+
+.mouse {
+    color: #f6f6f6;
+}
+
+.mouse:hover {
+    color: #c9bcbc;
+    cursor: url('../img/right-arrow.png'), auto;
+
+}

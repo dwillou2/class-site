@@ -1,0 +1,176 @@
+body {
+    height: 2000px;
+    width: 1500px;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    background: black;
+    color: white;
+}
+
+div {
+    height: 200px;
+    padding: 100px;
+    margin: 100px;
+
+}
+
+.large {
+    font-family: times;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+        width: 1500px;
+        
+}
+
+.centered {
+ font-family: serif;
+ text-align: center;
+ font-style: lighter;
+}
+
+.regular {
+    font-weight: 100;
+}
+
+#anchor {
+    top: 3000px;
+    position: absolute;
+}
+
+#letterspace {
+    letter-spacing: 20px;
+}
+
+#rotate {
+    right: 25px;
+    top: 250px;
+    position: fixed;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    
+}
+
+#rotate2 {
+    right: 25px;
+    top: 150px;
+    position: fixed;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+    
+}
+
+.float1 {
+    float: center;
+    width: 100%;
+    height: 100px;
+}
+
+.float2 {
+    float: left;
+    width: 20%;
+    height: 430px;
+    font-family: helvetica;
+    font-style: bold;
+    text-align: center;
+}
+
+.float3 {
+    float: center;
+    top: 1000px;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 900;
+    margin-right: 0;
+    font-family: helvetica;
+    font-style: bold;
+    padding: 100px;
+}
+
+.float4 {
+    float: right;
+    width: 100%;
+    height: 100px;
+    font-family: helvetica;
+    font-style: bold;
+    font-size: 24px;
+    padding: 200px;
+}
+
+.float5 {
+    float: left;
+    top: 50px;
+    width: 200px;
+    height: 1000px;
+    margin-top: 0;
+    margin-right: 0;
+    font-family: Helvetica;
+    font-style: bold;
+    font-size: 12px;
+    padding: 50px;
+}
+
+.float6 {
+    float: center;
+    width: 100%;
+    height: 100px;
+    font-family: helvetica;
+    font-style: bold;
+    font-size: 24px;
+    padding: 200px;
+}
+
+.fixed {
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 50px;
+    left: 900px;
+
+}
+
+.fixed2 {
+    width: 500px;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    font-size: 12px;
+
+}
+
+.fixed3 {
+    width: 1000px;
+    height: 50px;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    font-size: 80px;
+    font-family: times;
+    font-weight: 800;
+}
+
+.float {
+    top: 1000px;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 300px;
+    margin-left: 300px;
+
+}
+
+#capitalize {
+   text-transform: uppercase;
+   clear: both;
+}
+
+#lineheight {
+    line-height: 10px;
+    clear: both;
+}
+
+
+}
