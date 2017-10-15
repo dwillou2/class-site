@@ -1,5 +1,5 @@
 body {
-    height: 100px;
+    height: 1000px;
     width: 8700px;
     font-family: Georgia, serif;
     font-size: 50px;
@@ -10,6 +10,13 @@ div {
     padding: 0px;
     margin: 0px;
 
+}
+
+.headernav {
+ text-align: center;
+ font-weight: 800;
+ font-family: helvetica;
+ font-size: 12px;
 }
 
 .large {
@@ -95,7 +102,7 @@ div {
 .fixed4 {
     float: left;
     width: 2000px;
-    height: 6600px;
+    height: 1000px;
     top: 10px;
     left: 10px;
     font-size: 80px;

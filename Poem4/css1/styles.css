@@ -1,11 +1,12 @@
 body {
-    height: 3500px;
+    height: 1000px;
 }
 
-.large {
-    font-family: arial;
-    font-size: 40px;
-        
+.headernav {
+ text-align: center;
+ font-weight: 800;
+ font-family: helvetica;
+ font-size: 12px;
 }
 
 .centered {
@@ -13,28 +14,6 @@ body {
  font-style: normal;
 }
 
-.regular {
-    font-weight: 100;
-}
-
-#anchor {
-    top: 3000px;
-    position: absolute;
-}
-
-#letterspace {
-    letter-spacing: 20px;
-}
-
-#rotate {
-    right: 500px;
-    top: 30px;
-    position: fixed;
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-    
-}
 
 .float1 {
     float: right;
@@ -46,14 +25,4 @@ body {
     float: left;
     width: 40%;
     height: 50px;
-}
-
-#capitalize {
-   text-transform: uppercase;
-   clear: both;
-}
-
-#lineheight {
-    line-height: 10px;
-    clear: both;
 }
