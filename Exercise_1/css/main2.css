@@ -1,0 +1,24 @@
+ #box1 {
+        width: 120px;
+        height: 40px;
+        background-color: #434347;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    }  
+    
+      #box2 {
+        width: 40px;
+        height: 120px;
+        background-color: black;
+        position: fixed;
+        left: 70%;
+        top: 70%;
+           -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    }  
+    

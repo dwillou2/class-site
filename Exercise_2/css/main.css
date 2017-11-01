@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+    width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: black;
+}
+
+/* hovering on the #shape-paragraph, adjusts the shape behind it */
+
+#shape-paragraph {
+	float: left;
+	
+}
+
+#circle {
+    width: 60px;
+    height: 100px;
+    float: left;
+    display: block;
+    top: 50%;
+    margin-top: 100px;
+    left: 50%;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 300px;
+
+	-webkit-transform: rotate(180deg);
+	-webkit-transition: all 500ms ease-in-out;
+
+}
+
+#shape-paragraph:hover #circle {
+	background-color: red; 
+	border-radius: 300px;	
+
+	-webkit-transform: scale(0); 
+}
+
+
+
+.mouse {
+    color: #f6f6f6;
+}
+
+.mouse:hover {
+    color: #c9bcbc;
+    cursor: url('../img/slotted-spatula.png'), auto;
+
+}
