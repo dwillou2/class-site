@@ -1,0 +1,110 @@
+body, html {
+    background-color: #e05959;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 10px;
+
+
+}
+
+
+
+.call-outs-container {
+    max-width: !400px;
+    margin: 40px auto 0 auto;
+
+    /*justify-content: flex-start;
+    justify-content: flex-right;
+    justify-content: center;*/
+
+    align-items: stretch;
+   /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;*/
+    }
+    
+.call-out {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #e0dd59;
+    /*width: 30%;*/
+    }
+
+    .call-out2 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #e0dd59;
+    /*width: 30%;*/
+    }
+
+    .call-out3 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #e0dd59;
+    /*width: 30%;*/
+    }
+
+    .call-out4 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #76e059;
+    /*width: 30%;*/
+    }
+
+    .call-out5 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #59e0c7;
+    /*width: 30%;*/
+    }
+
+    .call-out6 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #598ce0;
+    /*width: 30%;*/
+    }
+
+    .call-out7 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #8859e0;
+    /*width: 30%;*/
+    }
+
+    .call-out8 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #e059cb;
+    /*width: 30%;*/
+    }
+
+    .call-out9 {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    background: #e05959;
+    /*width: 30%;*/
+    }
+    
+@media (min-width: 900px) {
+    .call-outs-container {
+    display: flex;
+    justify-content: space-between; 
+        }    
+    }
+    
+
+.black {
+    background-color: black;
+    margin: auto;
+    }
