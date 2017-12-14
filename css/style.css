@@ -20,7 +20,8 @@ a:visited {
 a:hover {
     color: white;
     background-color: black;
-    font-size:105%;
+    font-size:110%;
+    letter-spacing: 5px;
     border-bottom: 0px;
 }
 
