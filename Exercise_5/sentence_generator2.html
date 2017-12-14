@@ -1,0 +1,151 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Lottery</title>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 100px;
+			background: #303835;
+			color: white;
+		}
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			right: 75px;
+		}
+
+		.list-one {
+			color: white;
+		}
+
+		.list-two {
+			color: #ff9999;
+			font-family: helvetica;
+		}
+        
+        .list-three {
+			color: #99ffb5;
+			font-family: helvetica;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"Hey there, dude",
+				"Hey there, homie",
+				"Hey there, sport",
+				"Hey there, friend",
+				"Hey there, pal",
+				"Hey there, man",
+			];
+
+			// list two content
+			var two = [
+				"lost",
+				"barely lost",
+				"almost won",
+				"now owe me",
+			];
+            
+            // list three content
+			var three = [
+				"$1,000.",
+				"$1,000,000.",
+				"$1,000,000,000.",
+				"$0.01.",
+                "$0.25.",
+				"$2,500.",
+				"$73.00.",
+			];
+            
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button><b>WILL YOU WIN?</b></button>
+	</div>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, use...
+
+	<span></span>
+
+    if you want your words or phrases to stack vertically, use...
+
+    <div></div>
+
+	in the code below.
+	-->
+	<div class="list-one"></div> it looks like you <em><div class="list-two"></div></em> <b><div class="list-three"></div></b>
+
+</body>
+
+</html>
