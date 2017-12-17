@@ -40,7 +40,6 @@ a:hover {
     padding: 0 10px;
     text-align: center;
     color: black;
-
     order: 2;
 }
 
@@ -63,6 +62,30 @@ a:hover {
     font-weight: 600;
     text-align: right;
     }
+
+/*FOOTER*/ 
+
+
+.column-layout2 {
+    max-width: 1300px;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 0px auto 0 auto;
+    display: flex;
+    font-family: helvetica;
+    color: black;
+   /* justify-content: space-between;*/
+    }
+
+
+    .main-column2 {
+    flex: 1; 
+    background-color: white;
+    padding: 0 10px;
+    text-align: center;
+    color: black;
+    order: 1;
+}
     
     
     
